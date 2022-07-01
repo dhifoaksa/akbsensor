@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="200dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catatanku"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_marginVertical="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inpt_judul"
+        android:hint="Judul">
+
+    </EditText>
+    <EditText
+        android:id="@+id/inpt_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kategori"
+        android:layout_marginVertical="7dp"
+        />
+
+    <EditText
+        android:id="@+id/isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="7dp"
+        android:hint="Isi Catatan"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/white"
+        >
+
+    </Button>
+
+</LinearLayout>
